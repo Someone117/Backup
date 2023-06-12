@@ -17,13 +17,17 @@ import static com.Someone117.backup.MainActivity.*;
 public class BackupReceiver extends BroadcastReceiver {
     @Override
     public void onReceive(Context context, Intent intent) {
+        manual(context);
+    }
+    public static void manual(Context context) {
         // get ssid of network
         WifiManager wifiManager = (WifiManager)context.getSystemService(Context.WIFI_SERVICE);
         WifiInfo wifiInfo = wifiManager.getConnectionInfo();
         String ssid = wifiInfo.getSSID();
 
         // check if the phone is on the right network
-        if(ssid.equals("\"network ssid\"")) {
+        //ToDo: Change to your network ssid
+        if(ssid.equals("\"your network ssid\"")) {
             ExecutorService executor;
 
             executor = Executors.newFixedThreadPool(1);
@@ -37,7 +41,7 @@ public class BackupReceiver extends BroadcastReceiver {
             NotificationCompat.Builder builder = new NotificationCompat.Builder(context, CHANNEL_ID)
                     .setSmallIcon(R.drawable.ic_launcher_background)
                     .setContentTitle("Incorrect Wifi")
-                    .setContentText("No Uploads Completed")
+                    .setContentText("No Files Uploaded")
                     .setPriority(NotificationCompat.PRIORITY_MIN);
 
 
