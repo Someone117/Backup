@@ -21,8 +21,10 @@ public class NetworkTask implements Runnable {
     }
     @Override
     public void run() {
+        transferFiles();
+    }
+    public void transferFiles() {
         NotificationManagerCompat notificationManager = NotificationManagerCompat.from(id);
-
 
         // connect to ssh server
         //ToDo: fill in your information
@@ -69,12 +71,12 @@ public class NetworkTask implements Runnable {
                         .setContentText(fileList.size() + " files to upload")
                         .setPriority(NotificationCompat.PRIORITY_DEFAULT);
 
-                    int PROGRESS_MAX = files.length;
-                    int PROGRESS_CURRENT = 0;
-                    builder.setProgress(PROGRESS_MAX, PROGRESS_CURRENT, false);
-                    notificationManager.notify(1, builder.build());
+                int PROGRESS_MAX = files.length;
+                int PROGRESS_CURRENT = 0;
+                builder.setProgress(PROGRESS_MAX, PROGRESS_CURRENT, false);
+                notificationManager.notify(1, builder.build());
 
-                    // upload the files
+                // upload the files
                 for(int i = 0; i < files.length; i++) {
                     channel.put(files[i], remoteFolderPath, ChannelSftp.APPEND);
                     PROGRESS_CURRENT = i;
@@ -111,6 +113,7 @@ public class NetworkTask implements Runnable {
             notificationManager.notify(3, builder.build());
 
         }
+
     }
 
     // Remove files that were already uploaded

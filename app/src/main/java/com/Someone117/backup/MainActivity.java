@@ -5,6 +5,7 @@ import android.app.NotificationChannel;
 import android.app.NotificationManager;
 import android.content.pm.PackageManager;
 import android.os.Bundle;
+import android.widget.Button;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
@@ -32,6 +33,12 @@ public class MainActivity extends AppCompatActivity {
             int MY_PERMISSIONS_REQUEST_BACKGROUND_LOCATION = 66;
             ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.ACCESS_BACKGROUND_LOCATION}, MY_PERMISSIONS_REQUEST_BACKGROUND_LOCATION);
         }
+
+        Button button = findViewById(R.id.sync);
+        button.setOnClickListener(v -> {
+            new NetworkTask(this).transferFiles();
+        });
+
 
         if(done) { // do not reschedule alarm
             BackupScheduler.scheduleBackup(this);
