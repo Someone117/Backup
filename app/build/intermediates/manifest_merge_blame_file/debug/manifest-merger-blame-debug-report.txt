@@ -1,0 +1,92 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.backup"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+8-->C:\Users\Someo\Documents\GitHub\Backup2\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->C:\Users\Someo\Documents\GitHub\Backup2\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\Someo\Documents\GitHub\Backup2\app\src\main\AndroidManifest.xml:6:5-66
+11-->C:\Users\Someo\Documents\GitHub\Backup2\app\src\main\AndroidManifest.xml:6:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->C:\Users\Someo\Documents\GitHub\Backup2\app\src\main\AndroidManifest.xml:7:5-78
+12-->C:\Users\Someo\Documents\GitHub\Backup2\app\src\main\AndroidManifest.xml:7:22-76
+13    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+13-->C:\Users\Someo\Documents\GitHub\Backup2\app\src\main\AndroidManifest.xml:8:5-75
+13-->C:\Users\Someo\Documents\GitHub\Backup2\app\src\main\AndroidManifest.xml:8:22-73
+14    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+14-->C:\Users\Someo\Documents\GitHub\Backup2\app\src\main\AndroidManifest.xml:9:5-76
+14-->C:\Users\Someo\Documents\GitHub\Backup2\app\src\main\AndroidManifest.xml:9:22-73
+15    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+15-->C:\Users\Someo\Documents\GitHub\Backup2\app\src\main\AndroidManifest.xml:10:5-80
+15-->C:\Users\Someo\Documents\GitHub\Backup2\app\src\main\AndroidManifest.xml:10:22-78
+16    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+16-->C:\Users\Someo\Documents\GitHub\Backup2\app\src\main\AndroidManifest.xml:11:5-78
+16-->C:\Users\Someo\Documents\GitHub\Backup2\app\src\main\AndroidManifest.xml:11:22-76
+17    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+17-->C:\Users\Someo\Documents\GitHub\Backup2\app\src\main\AndroidManifest.xml:12:5-80
+17-->C:\Users\Someo\Documents\GitHub\Backup2\app\src\main\AndroidManifest.xml:12:22-77
+18    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+18-->C:\Users\Someo\Documents\GitHub\Backup2\app\src\main\AndroidManifest.xml:13:5-78
+18-->C:\Users\Someo\Documents\GitHub\Backup2\app\src\main\AndroidManifest.xml:13:22-76
+19    <uses-permission android:name="android.permission.WAKE_LOCK" />
+19-->C:\Users\Someo\Documents\GitHub\Backup2\app\src\main\AndroidManifest.xml:14:5-68
+19-->C:\Users\Someo\Documents\GitHub\Backup2\app\src\main\AndroidManifest.xml:14:22-65
+20    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+20-->C:\Users\Someo\Documents\GitHub\Backup2\app\src\main\AndroidManifest.xml:15:5-85
+20-->C:\Users\Someo\Documents\GitHub\Backup2\app\src\main\AndroidManifest.xml:15:22-82
+21    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+21-->C:\Users\Someo\Documents\GitHub\Backup2\app\src\main\AndroidManifest.xml:16:5-81
+21-->C:\Users\Someo\Documents\GitHub\Backup2\app\src\main\AndroidManifest.xml:16:22-78
+22
+23    <application
+23-->C:\Users\Someo\Documents\GitHub\Backup2\app\src\main\AndroidManifest.xml:18:5-38:19
+24        android:allowBackup="true"
+24-->C:\Users\Someo\Documents\GitHub\Backup2\app\src\main\AndroidManifest.xml:19:13-39
+25        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+25-->[androidx.core:core:1.5.0] C:\Users\Someo\.gradle\caches\transforms-3\f5d35f68d2cc3eb6c0b5cd9fd1247d1f\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
+26        android:dataExtractionRules="@xml/data_extraction_rules"
+26-->C:\Users\Someo\Documents\GitHub\Backup2\app\src\main\AndroidManifest.xml:20:13-69
+27        android:debuggable="true"
+28        android:extractNativeLibs="false"
+29        android:fullBackupContent="@xml/backup_rules"
+29-->C:\Users\Someo\Documents\GitHub\Backup2\app\src\main\AndroidManifest.xml:21:13-58
+30        android:icon="@mipmap/ic_launcher"
+30-->C:\Users\Someo\Documents\GitHub\Backup2\app\src\main\AndroidManifest.xml:22:13-47
+31        android:label="@string/app_name"
+31-->C:\Users\Someo\Documents\GitHub\Backup2\app\src\main\AndroidManifest.xml:23:13-45
+32        android:roundIcon="@mipmap/ic_launcher_round"
+32-->C:\Users\Someo\Documents\GitHub\Backup2\app\src\main\AndroidManifest.xml:24:13-58
+33        android:supportsRtl="true"
+33-->C:\Users\Someo\Documents\GitHub\Backup2\app\src\main\AndroidManifest.xml:25:13-39
+34        android:theme="@style/Theme.Backup" >
+34-->C:\Users\Someo\Documents\GitHub\Backup2\app\src\main\AndroidManifest.xml:26:13-48
+35        <receiver android:name="com.example.backup.BackupReceiver" />
+35-->C:\Users\Someo\Documents\GitHub\Backup2\app\src\main\AndroidManifest.xml:28:13-56
+35-->C:\Users\Someo\Documents\GitHub\Backup2\app\src\main\AndroidManifest.xml:28:23-53
+36
+37        <activity
+37-->C:\Users\Someo\Documents\GitHub\Backup2\app\src\main\AndroidManifest.xml:29:9-37:20
+38            android:name="com.example.backup.MainActivity"
+38-->C:\Users\Someo\Documents\GitHub\Backup2\app\src\main\AndroidManifest.xml:30:17-45
+39            android:exported="true" >
+39-->C:\Users\Someo\Documents\GitHub\Backup2\app\src\main\AndroidManifest.xml:31:17-40
+40            <intent-filter>
+40-->C:\Users\Someo\Documents\GitHub\Backup2\app\src\main\AndroidManifest.xml:32:13-36:29
+41                <action android:name="android.intent.action.MAIN" />
+41-->C:\Users\Someo\Documents\GitHub\Backup2\app\src\main\AndroidManifest.xml:33:17-68
+41-->C:\Users\Someo\Documents\GitHub\Backup2\app\src\main\AndroidManifest.xml:33:25-66
+42
+43                <category android:name="android.intent.category.LAUNCHER" />
+43-->C:\Users\Someo\Documents\GitHub\Backup2\app\src\main\AndroidManifest.xml:35:17-76
+43-->C:\Users\Someo\Documents\GitHub\Backup2\app\src\main\AndroidManifest.xml:35:27-74
+44            </intent-filter>
+45        </activity>
+46    </application>
+47
+48</manifest>
