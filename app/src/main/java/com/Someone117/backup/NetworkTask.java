@@ -21,9 +21,6 @@ public class NetworkTask implements Runnable {
     }
     @Override
     public void run() {
-        transferFiles();
-    }
-    public void transferFiles() {
         NotificationManagerCompat notificationManager = NotificationManagerCompat.from(id);
 
         // connect to ssh server
