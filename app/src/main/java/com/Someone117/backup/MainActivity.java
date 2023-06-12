@@ -34,9 +34,9 @@ public class MainActivity extends AppCompatActivity {
             ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.ACCESS_BACKGROUND_LOCATION}, MY_PERMISSIONS_REQUEST_BACKGROUND_LOCATION);
         }
 
-        Button button = findViewById(R.id.sync);
+        Button button = findViewById(R.id.button);
         button.setOnClickListener(v -> {
-            new NetworkTask(this).transferFiles();
+            BackupReceiver.manual(this);
         });
 
 
