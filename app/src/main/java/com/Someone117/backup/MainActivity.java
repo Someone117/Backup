@@ -54,14 +54,14 @@ public class MainActivity extends AppCompatActivity {
         SharedPreferences.Editor editor = preferences.edit();
 
         TextView location = findViewById(R.id.disk);
-        location.setText(preferences.getString("disk", "NetworkLocation"));
+        location.setText(preferences.getString("disk", ""));
         location.setOnFocusChangeListener((v, hasFocus) -> {
             editor.putString("disk", location.getText().toString());
             editor.apply();
         });
 
         TextView ssid = findViewById(R.id.ssid);
-        ssid.setText(preferences.getString("ssid", "Network SSID"));
+        ssid.setText(preferences.getString("ssid", ""));
         ssid.setOnFocusChangeListener((v, hasFocus) -> {
             editor.putString("ssid", ssid.getText().toString());
             editor.apply();
@@ -69,14 +69,14 @@ public class MainActivity extends AppCompatActivity {
         });
 
         TextView ip = findViewById(R.id.ipAddress);
-        ip.setText(preferences.getString("ip", "IP Address"));
+        ip.setText(preferences.getString("ip", ""));
         ip.setOnFocusChangeListener((v, hasFocus) -> {
             editor.putString("ip", ip.getText().toString());
             editor.apply();
         });
 
         TextView userName = findViewById(R.id.sshUsername);
-        userName.setText(preferences.getString("userName", "SSH Username"));
+        userName.setText(preferences.getString("userName", ""));
         userName.setOnFocusChangeListener((v, hasFocus) -> {
             editor.putString("userName", userName.getText().toString());
             editor.apply();
