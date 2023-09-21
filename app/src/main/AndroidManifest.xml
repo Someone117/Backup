@@ -10,7 +10,6 @@
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM"/>
     <uses-permission android:name="android.permission.WAKE_LOCK" />
     <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
@@ -25,7 +24,6 @@
             android:supportsRtl="true"
             android:theme="@style/Theme.Backup"
             tools:targetApi="31">
-            <receiver android:name="com.Someone117.backup.BackupReceiver" />
         <activity
                 android:name="com.Someone117.backup.MainActivity"
                 android:exported="true">

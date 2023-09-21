@@ -7,7 +7,14 @@
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>
     <color name="white">#FFFFFFFF</color>
+    <string name="Backup">backup</string>
+    <string name="Restore">restore</string>
     <string name="app_name">Backup</string>
+    <string name="ip_address">IP Address</string>
+    <string name="network_name">Network Name</string>
+    <string name="server_location">Server Location</string>
+    <string name="ssh_password">SSH Password</string>
+    <string name="ssh_username">SSH Username</string>
     <style name="Theme.Backup" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         
         <item name="colorPrimary">@color/purple_500</item>

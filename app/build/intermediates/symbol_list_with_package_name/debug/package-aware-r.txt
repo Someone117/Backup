@@ -1826,6 +1826,7 @@ id beginning
 id blocking
 id bottom
 id bounce
+id button
 id buttonPanel
 id cancel_button
 id center
@@ -1876,6 +1877,7 @@ id disableHome
 id disablePostScroll
 id disableScroll
 id disjoint
+id disk
 id dragDown
 id dragEnd
 id dragLeft
@@ -1928,6 +1930,7 @@ id image
 id info
 id invisible
 id inward
+id ipAddress
 id italic
 id item_touch_helper_previous_elevation
 id jumpToEnd
@@ -2017,6 +2020,7 @@ id parent
 id parentPanel
 id parentRelative
 id parent_matrix
+id password
 id password_toggle
 id path
 id pathRelative
@@ -2081,6 +2085,8 @@ id square
 id src_atop
 id src_in
 id src_over
+id sshUsername
+id ssid
 id standard
 id start
 id startHorizontal
@@ -2117,7 +2123,10 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
+id textView
 id textView2
+id textView5
+id textView6
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -2314,6 +2323,8 @@ layout text_view_without_line_height
 mipmap ic_launcher
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description
+string Backup
+string Restore
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description
@@ -2356,6 +2367,7 @@ string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
+string ip_address
 string item_view_role_description
 string material_clock_display_divider
 string material_clock_toggle_content_description
@@ -2412,12 +2424,16 @@ string mtrl_picker_toggle_to_calendar_input_mode
 string mtrl_picker_toggle_to_day_selection
 string mtrl_picker_toggle_to_text_input_mode
 string mtrl_picker_toggle_to_year_selection
+string network_name
 string password_toggle_content_description
 string path_password_eye
 string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
 string search_menu_title
+string server_location
+string ssh_password
+string ssh_username
 string status_bar_notification_info_overflow
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light

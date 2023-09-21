@@ -1,26 +1,26 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-3    package="com.example.backup.test" >
+3    package="com.Someone117.backup.test" >
 4
 5    <uses-sdk
-5-->C:\Users\Someo\Documents\GitHub\Backup2\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest15433011082421665657.xml:5:5-74
-6        android:minSdkVersion="30"
-6-->C:\Users\Someo\Documents\GitHub\Backup2\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest15433011082421665657.xml:5:15-41
+5-->C:\Users\Someo\Documents\GitHub\Backup2\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest7271064359204212432.xml:5:5-74
+6        android:minSdkVersion="26"
+6-->C:\Users\Someo\Documents\GitHub\Backup2\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest7271064359204212432.xml:5:15-41
 7        android:targetSdkVersion="32" />
-7-->C:\Users\Someo\Documents\GitHub\Backup2\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest15433011082421665657.xml:5:42-71
+7-->C:\Users\Someo\Documents\GitHub\Backup2\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest7271064359204212432.xml:5:42-71
 8
 9    <instrumentation
-9-->C:\Users\Someo\Documents\GitHub\Backup2\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest15433011082421665657.xml:11:5-15:68
+9-->C:\Users\Someo\Documents\GitHub\Backup2\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest7271064359204212432.xml:11:5-15:71
 10        android:name="androidx.test.runner.AndroidJUnitRunner"
-10-->C:\Users\Someo\Documents\GitHub\Backup2\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest15433011082421665657.xml:11:22-76
+10-->C:\Users\Someo\Documents\GitHub\Backup2\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest7271064359204212432.xml:11:22-76
 11        android:functionalTest="false"
-11-->C:\Users\Someo\Documents\GitHub\Backup2\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest15433011082421665657.xml:14:22-52
+11-->C:\Users\Someo\Documents\GitHub\Backup2\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest7271064359204212432.xml:14:22-52
 12        android:handleProfiling="false"
-12-->C:\Users\Someo\Documents\GitHub\Backup2\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest15433011082421665657.xml:13:22-53
-13        android:label="Tests for com.example.backup"
-13-->C:\Users\Someo\Documents\GitHub\Backup2\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest15433011082421665657.xml:15:22-66
-14        android:targetPackage="com.example.backup" />
-14-->C:\Users\Someo\Documents\GitHub\Backup2\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest15433011082421665657.xml:12:22-64
+12-->C:\Users\Someo\Documents\GitHub\Backup2\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest7271064359204212432.xml:13:22-53
+13        android:label="Tests for com.Someone117.backup"
+13-->C:\Users\Someo\Documents\GitHub\Backup2\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest7271064359204212432.xml:15:22-69
+14        android:targetPackage="com.Someone117.backup" />
+14-->C:\Users\Someo\Documents\GitHub\Backup2\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest7271064359204212432.xml:12:22-67
 15
 16    <uses-permission android:name="android.permission.REORDER_TASKS" />
 16-->[androidx.test:core:1.4.0] C:\Users\Someo\.gradle\caches\transforms-3\038759634dc86acfa727d5cae892dfc5\transformed\core-1.4.0\AndroidManifest.xml:24:5-72
@@ -40,12 +40,12 @@
 22    </queries>
 23
 24    <application
-24-->C:\Users\Someo\Documents\GitHub\Backup2\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest15433011082421665657.xml:7:5-9:19
+24-->C:\Users\Someo\Documents\GitHub\Backup2\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest7271064359204212432.xml:7:5-9:19
 25        android:debuggable="true"
 26        android:extractNativeLibs="false" >
 27        <uses-library android:name="android.test.runner" />
-27-->C:\Users\Someo\Documents\GitHub\Backup2\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest15433011082421665657.xml:8:9-60
-27-->C:\Users\Someo\Documents\GitHub\Backup2\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest15433011082421665657.xml:8:23-57
+27-->C:\Users\Someo\Documents\GitHub\Backup2\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest7271064359204212432.xml:8:9-60
+27-->C:\Users\Someo\Documents\GitHub\Backup2\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest7271064359204212432.xml:8:23-57
 28
 29        <activity
 29-->[androidx.test:core:1.4.0] C:\Users\Someo\.gradle\caches\transforms-3\038759634dc86acfa727d5cae892dfc5\transformed\core-1.4.0\AndroidManifest.xml:27:9-34:20

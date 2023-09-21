@@ -1,4 +1,10 @@
 <resources>
     <string name="app_name">Backup</string>
-    <string name="manual_backup">Manual Backup</string>
+    <string name="Backup">backup</string>
+    <string name="Restore">restore</string>
+    <string name="ssh_password">SSH Password</string>
+    <string name="network_name">Network Name</string>
+    <string name="ip_address">IP Address</string>
+    <string name="ssh_username">SSH Username</string>
+    <string name="server_location">Server Location</string>
 </resources>

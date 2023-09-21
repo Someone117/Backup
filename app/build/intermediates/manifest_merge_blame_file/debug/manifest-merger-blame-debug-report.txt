@@ -1,6 +1,6 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-3    package="com.example.backup"
+3    package="com.Someone117.backup"
 4    android:versionCode="1"
 5    android:versionName="1.0" >
 6
@@ -31,62 +31,56 @@
 17    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 17-->C:\Users\Someo\Documents\GitHub\Backup2\app\src\main\AndroidManifest.xml:12:5-80
 17-->C:\Users\Someo\Documents\GitHub\Backup2\app\src\main\AndroidManifest.xml:12:22-77
-18    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
-18-->C:\Users\Someo\Documents\GitHub\Backup2\app\src\main\AndroidManifest.xml:13:5-78
-18-->C:\Users\Someo\Documents\GitHub\Backup2\app\src\main\AndroidManifest.xml:13:22-76
-19    <uses-permission android:name="android.permission.WAKE_LOCK" />
-19-->C:\Users\Someo\Documents\GitHub\Backup2\app\src\main\AndroidManifest.xml:14:5-68
-19-->C:\Users\Someo\Documents\GitHub\Backup2\app\src\main\AndroidManifest.xml:14:22-65
-20    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
-20-->C:\Users\Someo\Documents\GitHub\Backup2\app\src\main\AndroidManifest.xml:15:5-85
-20-->C:\Users\Someo\Documents\GitHub\Backup2\app\src\main\AndroidManifest.xml:15:22-82
-21    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
-21-->C:\Users\Someo\Documents\GitHub\Backup2\app\src\main\AndroidManifest.xml:16:5-81
-21-->C:\Users\Someo\Documents\GitHub\Backup2\app\src\main\AndroidManifest.xml:16:22-78
-22
-23    <application
-23-->C:\Users\Someo\Documents\GitHub\Backup2\app\src\main\AndroidManifest.xml:18:5-38:19
-24        android:allowBackup="true"
-24-->C:\Users\Someo\Documents\GitHub\Backup2\app\src\main\AndroidManifest.xml:19:13-39
-25        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-25-->[androidx.core:core:1.5.0] C:\Users\Someo\.gradle\caches\transforms-3\f5d35f68d2cc3eb6c0b5cd9fd1247d1f\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
-26        android:dataExtractionRules="@xml/data_extraction_rules"
-26-->C:\Users\Someo\Documents\GitHub\Backup2\app\src\main\AndroidManifest.xml:20:13-69
-27        android:debuggable="true"
-28        android:extractNativeLibs="false"
-29        android:fullBackupContent="@xml/backup_rules"
-29-->C:\Users\Someo\Documents\GitHub\Backup2\app\src\main\AndroidManifest.xml:21:13-58
-30        android:icon="@mipmap/ic_launcher"
-30-->C:\Users\Someo\Documents\GitHub\Backup2\app\src\main\AndroidManifest.xml:22:13-47
-31        android:label="@string/app_name"
-31-->C:\Users\Someo\Documents\GitHub\Backup2\app\src\main\AndroidManifest.xml:23:13-45
-32        android:roundIcon="@mipmap/ic_launcher_round"
-32-->C:\Users\Someo\Documents\GitHub\Backup2\app\src\main\AndroidManifest.xml:24:13-58
-33        android:supportsRtl="true"
-33-->C:\Users\Someo\Documents\GitHub\Backup2\app\src\main\AndroidManifest.xml:25:13-39
+18    <uses-permission android:name="android.permission.WAKE_LOCK" />
+18-->C:\Users\Someo\Documents\GitHub\Backup2\app\src\main\AndroidManifest.xml:13:5-68
+18-->C:\Users\Someo\Documents\GitHub\Backup2\app\src\main\AndroidManifest.xml:13:22-65
+19    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+19-->C:\Users\Someo\Documents\GitHub\Backup2\app\src\main\AndroidManifest.xml:14:5-85
+19-->C:\Users\Someo\Documents\GitHub\Backup2\app\src\main\AndroidManifest.xml:14:22-82
+20    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+20-->C:\Users\Someo\Documents\GitHub\Backup2\app\src\main\AndroidManifest.xml:15:5-81
+20-->C:\Users\Someo\Documents\GitHub\Backup2\app\src\main\AndroidManifest.xml:15:22-78
+21
+22    <application
+22-->C:\Users\Someo\Documents\GitHub\Backup2\app\src\main\AndroidManifest.xml:17:5-36:19
+23        android:allowBackup="true"
+23-->C:\Users\Someo\Documents\GitHub\Backup2\app\src\main\AndroidManifest.xml:18:13-39
+24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+24-->[androidx.core:core:1.5.0] C:\Users\Someo\.gradle\caches\transforms-3\f5d35f68d2cc3eb6c0b5cd9fd1247d1f\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
+25        android:dataExtractionRules="@xml/data_extraction_rules"
+25-->C:\Users\Someo\Documents\GitHub\Backup2\app\src\main\AndroidManifest.xml:19:13-69
+26        android:debuggable="true"
+27        android:extractNativeLibs="false"
+28        android:fullBackupContent="@xml/backup_rules"
+28-->C:\Users\Someo\Documents\GitHub\Backup2\app\src\main\AndroidManifest.xml:20:13-58
+29        android:icon="@mipmap/ic_launcher"
+29-->C:\Users\Someo\Documents\GitHub\Backup2\app\src\main\AndroidManifest.xml:21:13-47
+30        android:label="@string/app_name"
+30-->C:\Users\Someo\Documents\GitHub\Backup2\app\src\main\AndroidManifest.xml:22:13-45
+31        android:roundIcon="@mipmap/ic_launcher_round"
+31-->C:\Users\Someo\Documents\GitHub\Backup2\app\src\main\AndroidManifest.xml:23:13-58
+32        android:supportsRtl="true"
+32-->C:\Users\Someo\Documents\GitHub\Backup2\app\src\main\AndroidManifest.xml:24:13-39
+33        android:testOnly="true"
 34        android:theme="@style/Theme.Backup" >
-34-->C:\Users\Someo\Documents\GitHub\Backup2\app\src\main\AndroidManifest.xml:26:13-48
-35        <receiver android:name="com.example.backup.BackupReceiver" />
-35-->C:\Users\Someo\Documents\GitHub\Backup2\app\src\main\AndroidManifest.xml:28:13-56
-35-->C:\Users\Someo\Documents\GitHub\Backup2\app\src\main\AndroidManifest.xml:28:23-53
-36
-37        <activity
-37-->C:\Users\Someo\Documents\GitHub\Backup2\app\src\main\AndroidManifest.xml:29:9-37:20
-38            android:name="com.example.backup.MainActivity"
-38-->C:\Users\Someo\Documents\GitHub\Backup2\app\src\main\AndroidManifest.xml:30:17-45
-39            android:exported="true" >
-39-->C:\Users\Someo\Documents\GitHub\Backup2\app\src\main\AndroidManifest.xml:31:17-40
-40            <intent-filter>
-40-->C:\Users\Someo\Documents\GitHub\Backup2\app\src\main\AndroidManifest.xml:32:13-36:29
-41                <action android:name="android.intent.action.MAIN" />
-41-->C:\Users\Someo\Documents\GitHub\Backup2\app\src\main\AndroidManifest.xml:33:17-68
-41-->C:\Users\Someo\Documents\GitHub\Backup2\app\src\main\AndroidManifest.xml:33:25-66
-42
-43                <category android:name="android.intent.category.LAUNCHER" />
-43-->C:\Users\Someo\Documents\GitHub\Backup2\app\src\main\AndroidManifest.xml:35:17-76
-43-->C:\Users\Someo\Documents\GitHub\Backup2\app\src\main\AndroidManifest.xml:35:27-74
-44            </intent-filter>
-45        </activity>
-46    </application>
-47
-48</manifest>
+34-->C:\Users\Someo\Documents\GitHub\Backup2\app\src\main\AndroidManifest.xml:25:13-48
+35        <activity
+35-->C:\Users\Someo\Documents\GitHub\Backup2\app\src\main\AndroidManifest.xml:27:9-35:20
+36            android:name="com.Someone117.backup.MainActivity"
+36-->C:\Users\Someo\Documents\GitHub\Backup2\app\src\main\AndroidManifest.xml:28:17-66
+37            android:exported="true" >
+37-->C:\Users\Someo\Documents\GitHub\Backup2\app\src\main\AndroidManifest.xml:29:17-40
+38            <intent-filter>
+38-->C:\Users\Someo\Documents\GitHub\Backup2\app\src\main\AndroidManifest.xml:30:13-34:29
+39                <action android:name="android.intent.action.MAIN" />
+39-->C:\Users\Someo\Documents\GitHub\Backup2\app\src\main\AndroidManifest.xml:31:17-68
+39-->C:\Users\Someo\Documents\GitHub\Backup2\app\src\main\AndroidManifest.xml:31:25-66
+40
+41                <category android:name="android.intent.category.LAUNCHER" />
+41-->C:\Users\Someo\Documents\GitHub\Backup2\app\src\main\AndroidManifest.xml:33:17-76
+41-->C:\Users\Someo\Documents\GitHub\Backup2\app\src\main\AndroidManifest.xml:33:27-74
+42            </intent-filter>
+43        </activity>
+44    </application>
+45
+46</manifest>
